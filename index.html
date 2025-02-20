@@ -14,23 +14,41 @@ in a zero grade, a permanent record on file and possibly immediate failure of th
 Reflection (1-2 paragraphs):  I really enjoyed writing this program, but had trouble with blah blah blah.  -->
 
 <html>
-    <head>
-        <title>About Rhett Palmer</title>
-        <meta charset="UTF-8">
-        <link rel="icon" href="images/buttershot.png">
-    </head>
+<head>
+    <title>About Rhett Palmer</title>
+    <meta charset="UTF-8" >
+    <link rel="icon" href="images/buttershot.png">
+</head>
 
+<style>
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    table,th,td{
+        border:  2px solid black; 
+        text-align: center; 
+        margin-left: auto; 
+        margin-right:auto;
+        width: auto;
+        height: auto;
 
+    }
+</style>
+
+<body>
     <header>
-        <h1>Rhett Palmer</h1> <br>
-        <img src="images/AbbyRhett.jpg" alt="AbbyRhett" width="250" height="350" class="center">
+        <h1 style="text-align: center;">Rhett Palmer</h1> <br>
+        <img src="images/AbbyRhett.jpg" alt="AbbyRhett" width="250" height="350" style="float: right; margin-left: 5px;">
     </header>
 
     <hr>
 
-<section id="Info">
+<section id="Info" style="text-align: right;">
     <h2><b>Personal Info</b></h2>
-    <ul>
+    <ul style="text-align: right; display:inline-block;">
         <li>Major: Computer Science With an Emphasiss in Secure Computing</li>
         <li>Highschool: Westlake High, Saratoga Springs, Utah. 2022</li>
         <li>Current Year: Sophmore</li>
@@ -39,14 +57,14 @@ Reflection (1-2 paragraphs):  I really enjoyed writing this program, but had tro
 </section>  
 
     <hr>
-<section id="Books">
+<section id="Books" style="text-align: right;">
     <h2>Five Favorite Books</h2>
-    <ol type="I">
-        <li><i>Ready Player One</i> by <a  href="https://en.wikipedia.org/wiki/Ernest_Cline">Ernest Cline</a> </li>
-        <li><i>Dune</i> by <a href="https://www.britannica.com/biography/Frank-Herbert">Frank Herbert</a> </li>
-        <li><i>The Hunger Games</i> by <a href="https://www.suzannecollinsbooks.com/">Suzanne Collins</a> </li>
-        <li><i>Catching Fire</i> by <a href="https://www.suzannecollinsbooks.com/">Suzanne Collins</a> </li>
-        <li><i>The Maze Runner</i> by <a href="https://en.wikipedia.org/wiki/James_Dashner">James Dashner</a> </li>
+    <ol type="I" style="display: inline-block;">
+        <li><i>Ready Player One</i> by <a  href="https://en.wikipedia.org/wiki/Ernest_Cline">Ernest Cline</a> </li> <br>
+        <li><i>Dune</i> by <a href="https://www.britannica.com/biography/Frank-Herbert">Frank Herbert</a> </li> <br>
+        <li><i>The Hunger Games</i> by <a href="https://www.suzannecollinsbooks.com/">Suzanne Collins</a> </li> <br>
+        <li><i>Catching Fire</i> by <a href="https://www.suzannecollinsbooks.com/">Suzanne Collins</a> </li> <br> 
+        <li><i>The Maze Runner</i> by <a href="https://en.wikipedia.org/wiki/James_Dashner">James Dashner</a> </li> <br>
     </ol>
 </section>
     
@@ -69,5 +87,74 @@ Reflection (1-2 paragraphs):  I really enjoyed writing this program, but had tro
     
 </section>
     
+<hr>
+
+<section id="Schedule" style="text-align: center;">
+    <h2>School Schedule</h2>
+    <table >
+       <tr>
+        <th></th>
+        
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+        <th>Saturday</th>
+        <th>Sunday</th>
+       </tr>
+       <tr>
+            <th>10:00</th>
+            <td style="background-color: teal;">Trigonometry</td>
+            <td></td>
+            <td style="background-color: teal;">Trigonometry</td>
+            <td></td>
+            <td style="background-color: teal;">Trigonometry</td>
+            <td rowspan="5" style="background-color: pink;"> Relax <br> Catch up</td>
+            <td rowspan="7" style="background-color: purple;">Day Off</td>
+            
+       </tr>
+
+       <tr>
+            <th>11:00</th>
+            <td></td>
+            <td style="background-color: orange;">Health</td>
+            <td></td>
+            <td style="background-color: orange;">Health</td>
+            <td></td>
+       </tr>
+
+       <tr>
+            <th>12:00</th>
+            <td colspan="5" style="background-color: brown;">Lunch</td>
+       </tr>
+
+       <tr>
+            <th>1:00</th>
+            <td style="background-color: yellow;">Data Structures<br> & <br> Algorithms</td>
+
+            <td style="background-color: red;">Web Development</td>
+
+            <td style="background-color: yellow;">Data Structures<br> & <br> Algorithms</td>
+
+            <td style="background-color: red;">Web Development</td>
+
+            <td style="background-color: yellow;">Data Structures<br> & <br> Algorithms</td>
+       </tr>
+
+       <tr>
+            <th>2:00</th>
+            <td colspan="5" style="background-color:darkcyan;"> Homework </td>
+       </tr>
+
+       <tr>
+            <th>3:00</th>
+            <td colspan="6" style="background-color: green;">Work</td>
+       </tr>
+
+    </table>
+</section>
 
 </html>
+</body>
+    
